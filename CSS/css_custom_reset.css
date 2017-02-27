@@ -1,0 +1,27 @@
+html, body, header, nav, ul, li, aside, h2, h1, section, figure,
+figcaption, p, ol, form, option, label, textarea, footer, input {
+
+  margin: 0;
+  border: 0;
+  padding: 0;
+
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+
+  background: transparent;
+}
+
+input[type="radio"], option, input[type="submit"] {
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="submit"]:hover {
+  background-color: gold;
+}
+
+li:nth-of-type(2n) {
+    background-color: whitesmoke;
+}
